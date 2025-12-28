@@ -2,25 +2,25 @@
 
 A modern, responsive landing page for the Hummingbird Care Initiative waitlist, built with React and Tailwind CSS. This platform connects caregivers with families seeking compassionate elderly care services.
 
-## 🚀 Overview
+## Overview
 
 The HCI Waitlist Landing Page is designed to capture early interest from both caregivers and families looking for elderly care services. The platform serves as a marketplace where caregivers can offer their services and families can find trusted care providers for their loved ones.
 
-## ✨ Features
+## Features
 
-### 🎯 Core Functionality
+### Core Functionality
 - **Responsive Design**: Fully responsive across all device sizes (mobile, tablet, desktop)
 - **Waitlist Registration**: Simple form for users to join the waitlist
 - **Multi-role Support**: Supports both caregivers and family members
 - **Location-based**: Currently supports Lagos, Abuja, and other locations
 
-### 🎨 User Interface
+### User Interface
 - **Modern Design**: Clean, professional design with blue color scheme (#357ABB)
 - **Interactive Elements**: Hover effects, smooth transitions, and engaging CTAs
 - **Accessibility**: Proper ARIA labels and semantic HTML
 - **Mobile-First**: Optimized for mobile devices with collapsible navigation
 
-### 📱 Sections
+### Sections
 
 #### Header
 - Fixed navigation bar with logo and menu
@@ -68,7 +68,7 @@ The HCI Waitlist Landing Page is designed to capture early interest from both ca
 - Contact information
 - Quick navigation links
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Frontend Framework**: React 19.1.0
 - **Build Tool**: Vite 7.0.4
@@ -76,7 +76,7 @@ The HCI Waitlist Landing Page is designed to capture early interest from both ca
 - **Icons**: React Icons 5.5.0
 - **Development**: ESLint for code quality
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 src/
@@ -107,7 +107,7 @@ src/
 └── main.jsx               # App entry point
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js (version 16 or higher)
@@ -141,7 +141,7 @@ src/
    npm run preview
    ```
 
-## 🎨 Customization
+## Customization
 
 ### Styling
 The project uses Tailwind CSS for styling. Key design elements:
@@ -161,7 +161,7 @@ The waitlist form currently links to an external service via `bit.ly/HCI-WAITLIS
 2. Add form validation and error handling
 3. Implement API calls for data submission
 
-## 📱 Responsive Design
+## Responsive Design
 
 The landing page is fully responsive with breakpoints:
 - **Mobile**: < 768px
@@ -174,13 +174,13 @@ Key responsive features:
 - Responsive typography
 - Optimized image sizing
 
-## 🔗 External Integrations
+## External Integrations
 
 - **Waitlist Form**: Links to external registration system
 - **Social Media**: Direct links to Twitter, Instagram, and LinkedIn
 - **Email Contact**: Mailto link for customer inquiries
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -188,18 +188,18 @@ Key responsive features:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is proprietary to Hummingbird Care Initiative. All rights reserved.
 
-## 📞 Contact
+## Contact
 
 - **Email**: info@hcareinitiative.org
 - **Twitter**: [@humingbirdscare](https://x.com/humingbirdscare)
 - **Instagram**: [@hummingbirdscare](https://www.instagram.com/hummingbirdscare)
 - **LinkedIn**: [Hummingbird Care Initiative](https://www.linkedin.com/company/hummingbirdscare)
 
-## 🔄 Future Enhancements
+## Future Enhancements
 
 - [ ] Backend integration for waitlist management
 - [ ] User authentication and dashboard
