@@ -33,6 +33,7 @@ export function WaitList() {
                 value={formData.fullName}
                 onChange={handleChange}
                 placeholder="eg. Jude Jonzz"
+                disabled={true}
                 className="w-full bg-gray-100 rounded-lg px-4 py-3 text-gray-600 text-sm placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#357ABB]"
               />
             </div>
@@ -47,6 +48,7 @@ export function WaitList() {
                 value={formData.email}
                 onChange={handleChange}
                 placeholder="abc@gmail.com"
+                disabled={true}
                 className="w-full bg-gray-100 rounded-lg px-4 py-3 text-gray-600 text-sm placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#357ABB]"
               />
             </div>
@@ -59,12 +61,14 @@ export function WaitList() {
                 name="role"
                 value={formData.role}
                 onChange={handleChange}
+                disabled={true}
                 className="w-full bg-gray-100 rounded-lg px-4 py-3 text-gray-600 text-sm focus:outline-none focus:ring-2 focus:ring-[#357ABB]"
               >
                 <option value="">Select your role</option>
                 <option value="caregiver">Caregiver</option>
+                <option value="care_receiver">Care Receiver</option>
                 <option value="family">Family Member</option>
-                <option value="other">Other</option>
+                <option value="others">Others</option>
               </select>
             </div>
 
@@ -76,6 +80,7 @@ export function WaitList() {
                 name="location"
                 value={formData.location}
                 onChange={handleChange}
+                disabled={true}
                 className="w-full bg-gray-100 rounded-lg px-4 py-3 text-gray-600 text-sm focus:outline-none focus:ring-2 focus:ring-[#357ABB]"
               >
                 <option value="">Select your location</option>

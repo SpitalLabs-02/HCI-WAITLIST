@@ -9,7 +9,7 @@ export function Benefit() {
       <div className="max-w-7xl mx-auto grid gap-8 md:grid-cols-2 items-start">
         {/* Left column */}
         <div className="md:pr-8">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold mb-6">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold mb-6 leading-relaxed">
             Why join the HCI Waitlist?
           </h2>
           <p className="text-base sm:text-lg text-gray-700">

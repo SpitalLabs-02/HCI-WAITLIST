@@ -5,7 +5,7 @@ import background from "../assets/backgd.png";
 export function Hero() {
     return (
         <section
-            className="bg-cover bg-center"
+            className="bg-cover bg-center py-8"
             style={{ backgroundImage: `url(${background})` }}
         >
             <div className="min-h-screen flex items-center">
@@ -36,12 +36,12 @@ export function Hero() {
                                     Join the Waitlist
                                 </a>
 
-                                <button
+                                {/* <button
                                     type="button"
                                     className="inline-flex items-center justify-center border border-[#357ABB] text-[#357ABB] bg-white hover:bg-blue-50 rounded-full px-6 py-3 text-base font-medium w-full sm:w-auto"
                                 >
                                     How it Works
-                                </button>
+                                </button> */}
                             </div>
                         </div>
 

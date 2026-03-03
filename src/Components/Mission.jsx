@@ -12,7 +12,7 @@ export function Mission() {
 
         <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-normal text-[#0f1112] leading-tight">
           We believe every elderly person deserves compassionate and quality
-          care — and every caregiver deserves to be valued
+          care and every caregiver deserves to be valued.
         </h2>
       </div>
     </section>

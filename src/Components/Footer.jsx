@@ -64,7 +64,7 @@ export function Footer() {
                                 </a>
                             </div>
 
-                            <div className="flex items-center gap-3 ml-2">
+                            <div className="flex items-center gap-3 mt-4">
                                 <img
                                     src={appstore}
                                     alt="App store"
@@ -79,7 +79,7 @@ export function Footer() {
                         </div>
 
                         <p className="mt-6 text-xs sm:text-sm text-gray-600">
-                            &copy; 2025 Hummingbird Care Initiative. All rights reserved.
+                            &copy; 2026 Hummingbird Care Initiative. All rights reserved.
                         </p>
                     </div>
 

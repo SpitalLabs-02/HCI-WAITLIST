@@ -25,14 +25,14 @@ export function Header() {
 
         {/* Desktop actions */}
         <div className="hidden md:flex items-center gap-4">
-          <nav className="flex items-center gap-4">
-            <a href="#who" className="text-sm hover:underline">
+          <nav className="flex items-center gap-10">
+            <a href="#who" className="text-md hover:underline">
               Who
             </a>
-            <a href="#mission" className="text-sm hover:underline">
+            <a href="#mission" className="text-md hover:underline">
               Mission
             </a>
-            <a href="#how" className="text-sm hover:underline">
+            <a href="#how" className="text-md hover:underline">
               How
             </a>
           </nav>
