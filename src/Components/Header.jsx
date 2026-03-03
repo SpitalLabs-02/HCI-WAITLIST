@@ -17,7 +17,7 @@ export function Header() {
             className="w-12 h-12 sm:w-16 sm:h-16 object-contain"
           />
           <h1 className="text-sm sm:text-base md:text-lg font-semibold leading-snug">
-            HUMMINGBIRD
+            HUMMINGBIRDS
             <br />
             CARE INITIATIVE
           </h1>
@@ -38,7 +38,7 @@ export function Header() {
           </nav>
 
           <a
-            href="https://bit.ly/HCI-WAITLIST"
+            href="https://forms.gle/dmyguDEZGTBYQVYt8"
             target="_blank"
             rel="noopener noreferrer"
             className="rounded-full bg-[#357ABB] hover:bg-blue-700 h-[48px] px-5 flex items-center text-white text-sm font-medium"
@@ -116,7 +116,7 @@ export function Header() {
           </nav>
 
           <a
-            href="https://bit.ly/HCI-WAITLIST"
+            href="https://forms.gle/dmyguDEZGTBYQVYt8"
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => setMenuOpen(false)}

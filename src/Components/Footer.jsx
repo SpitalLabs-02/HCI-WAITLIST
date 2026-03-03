@@ -19,7 +19,7 @@ export function Footer() {
                                     className="w-14 h-14 sm:w-16 sm:h-16 object-contain"
                                 />
                                 <h1 className="text-sm sm:text-base font-semibold leading-tight">
-                                    HUMMINGBIRD
+                                    HUMMINGBIRDS
                                     <br />
                                     CARE INITIATIVE
                                 </h1>
@@ -79,7 +79,7 @@ export function Footer() {
                         </div>
 
                         <p className="mt-6 text-xs sm:text-sm text-gray-600">
-                            &copy; 2026 Hummingbird Care Initiative. All rights reserved.
+                            &copy; 2026 Hummingbirds Care Initiative. All rights reserved.
                         </p>
                     </div>
 
@@ -111,7 +111,7 @@ export function Footer() {
                                     info@hcareinitiative.org
                                 </a>
                             </p>
-                            <p className="text-sm mt-3 text-gray-600">Phone: (optional)</p>
+                            <p className="text-sm mt-3 text-gray-600">Phone: +234 915 625 1361</p>
                         </div>
                     </div>
                 </div>

@@ -92,7 +92,7 @@ export function WaitList() {
           </form>
 
           <a
-            href="https://bit.ly/HCI-WAITLIST"
+            href="https://forms.gle/dmyguDEZGTBYQVYt8"
             target="_blank"
             rel="noopener noreferrer"
             className="block w-full bg-[#2F6DB5] hover:bg-[#285c97] text-white font-semibold mt-8 py-4 rounded-full text-center text-base transition-colors"
