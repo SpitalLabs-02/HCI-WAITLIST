@@ -105,7 +105,7 @@ export function Footer() {
                             <h4 className="font-semibold mb-2">Contact Us</h4>
                             <p className="text-sm">
                                 <a
-                                    href="mailto:info@hcareinitiative.org"
+                                    href="mailto:info@hbcareinitiative.org"
                                     className="hover:underline text-gray-600"
                                 >
                                     info@hcareinitiative.org
