@@ -8,7 +8,7 @@ export function Header() {
    const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-white shadow-md">
+    <header className="fixed top-0 left-0 right-0 z-50 glass transition-all duration-300">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6 md:px-8 py-3">
         <div className="flex items-center gap-3">
           <img
@@ -26,14 +26,17 @@ export function Header() {
         {/* Desktop actions */}
         <div className="hidden md:flex items-center gap-4">
           <nav className="flex items-center gap-10">
-            <a href="#who" className="text-md hover:underline">
+            <a href="#who" className="text-md font-medium hover:text-[#357ABB] transition-colors relative group">
               Who
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#357ABB] transition-all group-hover:w-full"></span>
             </a>
-            <a href="#mission" className="text-md hover:underline">
+            <a href="#mission" className="text-md font-medium hover:text-[#357ABB] transition-colors relative group">
               Mission
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#357ABB] transition-all group-hover:w-full"></span>
             </a>
-            <a href="#how" className="text-md hover:underline">
+            <a href="#how" className="text-md font-medium hover:text-[#357ABB] transition-colors relative group">
               How
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-[#357ABB] transition-all group-hover:w-full"></span>
             </a>
           </nav>
 
@@ -41,7 +44,7 @@ export function Header() {
             href="https://forms.gle/dmyguDEZGTBYQVYt8"
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-full bg-[#357ABB] hover:bg-blue-700 h-[48px] px-5 flex items-center text-white text-sm font-medium"
+            className="rounded-full bg-[#357ABB] hover:bg-blue-700 hover:scale-105 active:scale-95 transition-all h-[48px] px-6 flex items-center text-white text-sm font-semibold shadow-lg shadow-blue-500/20"
           >
              Join the Waitlist
           </a>

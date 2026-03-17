@@ -3,7 +3,7 @@ import wheelchairImage from "../assets/love.png";
 
 export function HowSection() {
   return (
-    <section className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 md:px-8 lg:px-16">
+    <section className="py-12 sm:py-16 md:py-20 px-4 sm:px-6 md:px-8 lg:px-16" id="how">
       <div className="max-w-7xl mx-auto grid gap-8 md:gap-16 items-center md:grid-cols-2">
         {/* Image column */}
         <div className="order-2 md:order-1 flex justify-center">

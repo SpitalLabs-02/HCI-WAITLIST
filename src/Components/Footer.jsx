@@ -108,7 +108,7 @@ export function Footer() {
                                     href="mailto:info@hbcareinitiative.org"
                                     className="hover:underline text-gray-600"
                                 >
-                                    info@hcareinitiative.org
+                                    info@hbcareinitiative.org
                                 </a>
                             </p>
                             <p className="text-sm mt-3 text-gray-600">Phone: +234 915 625 1361</p>
