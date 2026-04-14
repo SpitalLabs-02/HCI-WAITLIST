@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import HelmetComponent from "./Components/Helmet";
 import { Header } from "./Components/Header";
 import { Mission } from "./Components/Mission";
 import { Footer } from "./Components/Footer";
@@ -13,6 +14,7 @@ import "./index.css";
 export function App() {
   return (
     <div className="min-h-screen flex flex-col">
+      <HelmetComponent/>
       <Header />
       <main className="grow">
         <Hero />
